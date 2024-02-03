@@ -9,9 +9,9 @@
     <header>
         <div class="container">
             <div class="menu-toggle">&#9776;</div>
-        <h1>MuzakMaker</h1>
         <nav>
             <ul>
+                <li><a href="#">MuzakMaker</a></li>
                 <li><a href="#trending">Trending <br /> Songs</a></li>
                 <li><a href="#playlists" >Your <br />  Playlists</a></li>
                 <li><a href="#curated" >Curated <br />  Playlists</a></li>
@@ -87,13 +87,14 @@
               </section>
             </div>
           </section>
-        <button>More Trending</button>
+        <button id="more">More Trending</button>
     </div>
-
         <!--Aside section begin-->
-        <h3>YOUR PLAYLISTS</h3>
-        <div id="playlists">
-            <aside>
+        <div class="container">
+          <div class="playlist">
+            <h3>YOUR PLAYLISTS</h3>
+            <div id="playlists" class="scroll">
+              <aside>
                 <!--BEST OF 2020-->
                 <section id="best">
                     <img src="best-of-2020-cover.png" alt="best-of-2020-cover">
@@ -124,44 +125,49 @@
                     <h3>Smooth Study</h3>
                     <p>Background music to keep you going while you study.</p>
                 </section>
-                <button id="all-your">All your playlists</button>
+            </div>
+          </div>
+        </div>
+              <button id="all-your">All your playlists</button>
             </aside>
         </div>    
         <!--2ND ASIDE SECTION-->
-        <h3>Curated Playlists</h3>
-        <div id="curated">
-            <aside>
-                <!--BOOZY BRUNCH-->
-                <section id="boozy">
-                    <img src="boozy-brunch-cover.png" alt="boozy-brunch-cover">
-                    <h3>Boozy Brunch</h3>
-                    <p>Light up the afternoon with these energetic hits.</p>
-                </section>
-                <!--DINNER PARTY-->
-                <section id="dinner">
-                    <img src="dinner-party-cover.png" alt="dinner-party-cover">
-                    <h3>Dinner Party</h3>
-                    <p>Background music to give your party life, but allow your guests to chat.</p>
-                </section>
-                <!--MELLOW-->
-                <section id="mellow">
-                    <img src="mellow-cover.png" alt="mellow-cover">
-                    <h3>Mellow</h3>
-                    <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
-                </section>
-                <!--JAZZ & CHILL-->
-                <section id="jazz&chill">
-                    <img src="jazz-chill-cover.png" alt="jazz-chill-cover">
-                    <h3>Jazz & Chill</h3>
-                    <p>Set the mood with these silky sounds.</p>
-                </section>
-                <!--JAZZ SAXOPHONE-->
-                <section id="saxophone">
-                    <img src="smooth-saxophone-cover.png" alt="smooth-saxophone-cover">
-                    <h3>Jazz Saxophone</h3>
-                    <p>The greatest collection of your sax favorites.</p>
-                </section>
-                <button id="more-curated">More curated</button>
+        <div class="playlist">
+          <h3>Curated Playlists</h3>
+          <div id="curated" class="scroll" >
+            <!--BOOZY BRUNCH-->
+            <section id="boozy">
+              <img src="boozy-brunch-cover.png" alt="boozy-brunch-cover">
+              <h3>Boozy Brunch</h3>
+              <p>Light up the afternoon with these energetic hits.</p>
+          </section>
+          <!--DINNER PARTY-->
+          <section id="dinner">
+              <img src="dinner-party-cover.png" alt="dinner-party-cover">
+              <h3>Dinner Party</h3>
+              <p>Background music to give your party life, but allow your guests to chat.</p>
+          </section>
+          <!--MELLOW-->
+          <section id="mellow">
+              <img src="mellow-cover.png" alt="mellow-cover">
+              <h3>Mellow</h3>
+              <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
+          </section>
+          <!--JAZZ & CHILL-->
+          <section id="jazz&chill">
+              <img src="jazz-chill-cover.png" alt="jazz-chill-cover">
+              <h3>Jazz & Chill</h3>
+              <p>Set the mood with these silky sounds.</p>
+          </section>
+          <!--JAZZ SAXOPHONE-->
+          <section id="saxophone">
+              <img src="smooth-saxophone-cover.png" alt="smooth-saxophone-cover">
+              <h3>Jazz Saxophone</h3>
+              <p>The greatest collection of your sax favorites.</p>
+          </section>
+          </div>
+        </div>
+        <button id="more-curated">More Curated</button>
             </aside>
         </main>
     <!--FOOTER BEGIN-->
